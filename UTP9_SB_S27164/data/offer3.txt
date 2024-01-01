@@ -1,0 +1,3 @@
+it	Italia	2024-12-22	2024-12-28	montagne	1.200,60	EUR
+en_US	United States	2023-12-29	2024-01-29	lake	10,500.50	USD
+pl_PL	Australia	2024-03-25	2024-04-08	morze	10000,00	PLN	

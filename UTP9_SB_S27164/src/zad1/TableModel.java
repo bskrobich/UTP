@@ -13,7 +13,7 @@ public class TableModel extends AbstractTableModel {
         this.travels = travels;
         this.locale = locale;
         this.columns = new String[]{"country", "dateFrom", "dateTo", "place", "price"};
-        this.rb = ResourceBundle.getBundle("dictionary", locale);
+        this.rb = ResourceBundle.getBundle("properties.dictionary", locale);
     }
 
     @Override

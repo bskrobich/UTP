@@ -47,7 +47,7 @@ public class Travel {
     }
 
     public String getPlace(String place, Locale locale) {
-        ResourceBundle rb = ResourceBundle.getBundle("dictionary", locale);
+        ResourceBundle rb = ResourceBundle.getBundle("properties.dictionary", locale);
         String[] places = { "sea", "lake", "mountains" };
 
         for (String p : places) {
@@ -59,7 +59,7 @@ public class Travel {
     }
 
     public String formatString(Locale locale) {
-        ResourceBundle rb = ResourceBundle.getBundle("dictionary", locale);
+        ResourceBundle rb = ResourceBundle.getBundle("properties.dictionary", locale);
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         NumberFormat nf = NumberFormat.getInstance(locale);
 
@@ -98,7 +98,7 @@ public class Travel {
     }
 
     public String getPlace(Locale locale) {
-        ResourceBundle rb = ResourceBundle.getBundle("dictionary", locale);
+        ResourceBundle rb = ResourceBundle.getBundle("properties.dictionary", locale);
         return rb.getString(this.place);
     }
 

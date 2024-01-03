@@ -48,7 +48,7 @@ public class GUI extends JFrame implements ActionListener {
 
     public void update(Locale locale) {
         TableModel tableModel = new TableModel(travels, locale);
-        ResourceBundle rb = ResourceBundle.getBundle("dictionary", locale);
+        ResourceBundle rb = ResourceBundle.getBundle("properties.dictionary", locale);
         table.setModel(tableModel);
         label.setText(rb.getString("language"));
     }
